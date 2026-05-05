@@ -1,0 +1,26 @@
+# Output of analysis scripts (figures, tables, logs) — regenerated on every run
+output/
+
+# Python build artefacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Editor and OS junk
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local credential or environment files
+.env
+*.env.local
